@@ -10,6 +10,7 @@ class Solution {
         }
         return (int)(cost%MOD);
     }
+    
     private int query(int[] tree, int left, int right, int m) {
         int result = 0;
         int l = left+m, r = right+m;
